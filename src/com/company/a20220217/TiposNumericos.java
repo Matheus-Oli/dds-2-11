@@ -1,4 +1,4 @@
-package com.company;
+package com.company.a20220217;
 public class TiposNumericos {
 
     public static void main(String[] args) {

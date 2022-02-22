@@ -1,4 +1,4 @@
-package com.company;
+package com.company.a20220217;
 import java.util.Scanner;
 
 public class Teste {

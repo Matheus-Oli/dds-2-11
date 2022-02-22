@@ -1,8 +1,8 @@
-package com.company;
+package com.company.a20220217;
 
 import java.util.Scanner;
 
-public class Main {
+public class Imc {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
