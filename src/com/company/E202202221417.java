@@ -13,6 +13,7 @@ public class E202202221417 {
         System.out.println("O cubo de " + numero + " e " + cubo + ".");
 
         scanner.close();
+
     }
 
 }
