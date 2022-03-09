@@ -1,4 +1,4 @@
-package com.company.a20220217;
+package com.company.variavais_e_contantes_3;
 import java.util.Scanner;
 
 public class TipoTexto {

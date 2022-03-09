@@ -1,4 +1,4 @@
-package com.company.a20220217;
+package com.company.variavais_e_contantes_3;
 public class TiposNumericos {
 
     public static void main(String[] args) {

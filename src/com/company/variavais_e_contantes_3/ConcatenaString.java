@@ -1,8 +1,8 @@
-package com.company.a20220222;
+package com.company.variavais_e_contantes_3;
 
 import java.util.Scanner;
 
-public class E0306 {
+public class ConcatenaString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
