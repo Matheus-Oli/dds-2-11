@@ -2,7 +2,7 @@ package com.company.variavais_e_contantes_3;
 
 import java.util.Scanner;
 
-public class ConcatenaString {
+public class ImprimeNomeSobrenome36 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

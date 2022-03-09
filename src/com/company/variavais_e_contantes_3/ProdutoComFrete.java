@@ -1,7 +1,7 @@
 package com.company.variavais_e_contantes_3;
 import java.util.Scanner;
 
-public class Teste {
+public class ProdutoComFrete {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

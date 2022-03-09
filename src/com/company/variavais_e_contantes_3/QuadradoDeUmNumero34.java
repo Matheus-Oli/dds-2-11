@@ -1,6 +1,6 @@
 package com.company.variavais_e_contantes_3;
 import java.util.Scanner;
-public class QuadradoDeUmNumero {
+public class QuadradoDeUmNumero34 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

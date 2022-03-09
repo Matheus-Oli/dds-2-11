@@ -1,5 +1,5 @@
 package com.company.variavais_e_contantes_3;
-public class TiposNumericos {
+public class TiposNumericos33 {
 
     public static void main(String[] args) {
         Byte numeroByte = 127; // -128 até 127
