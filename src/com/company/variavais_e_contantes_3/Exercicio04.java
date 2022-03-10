@@ -14,4 +14,5 @@ Tendo o valor referente ao percentual de desconto, você vai retirar esse valor 
 O que sobrar será o valor total final e deverá ser apresentado no console.*/
 
 public class Exercicio04 {
+
 }
