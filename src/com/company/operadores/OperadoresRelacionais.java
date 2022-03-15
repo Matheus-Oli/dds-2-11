@@ -44,14 +44,14 @@ public class OperadoresRelacionais {
         Boolean centoVinteOitoIgualCentoVinteOito = centoVinteOito.equals(centoVinteOito02);
         System.out.println("centoVinteOito.equals(centoVinteOito02)? " + centoVinteOitoIgualCentoVinteOito);
 
-        /*
-        * Notas importantes de se lembrar sobre o operador "=="
-        * O java só consegue comparar os tipor normais, através do operador "==", com números que
-        * estão no intervaloe de "-128" até "127". Fora desse intervalor, o operador "==" pode causar muita
-        * confusão quando utilizado com os tipos normais. Utilizado juntamente com os primitivos ( que, nesse
-        * caso, seria o "int" ao invéns do "Integer") o operador "==" vai funcionar até para os tipos normais.
-        * Isso porque o valor de uma vareiável sempre será igual a ele mesmo. Repare que, em nosso exemplo, utilizamos
-        * duas variáveis com o mesmo valor, pois, isso é o que acontece no "mundo real"*/
+        // Notas importantes de se lembrar sobre o operador "==":
+        //    * O Java só consegue comparar os tipos normais, através do operador "==", com números que
+        //	estão no intervalo de "-128" até "127". Fora desse intervalo, o operador "==" pode causar muita
+        //  confusão quando utilizado com os tipos normais. Utilizado juntamente com os primitivos (que,
+        //  nesse caso, seria o "int" ao invés de "Integer") o operador "==" funciona para qualquer número.
+        //    * Caso você utilize a mesma variável, o operador "==" vai funcionar até para os tipos
+        //  normais. Isso porque o valor de uma variável sempre será igual a ele mesmo. Repare que, em nosso
+        //  exemplo, utilizamos duas variáveis com o mesmo valor, pois, isso é o que acontece no "mundo real".
 
         Boolean centoVinteOitoIgualCentoVinteOito02 = centoVinteOito == centoVinteOito02;
         System.out.println("centoVinteOito == centoVinteOito02? " + centoVinteOitoIgualCentoVinteOito02);
