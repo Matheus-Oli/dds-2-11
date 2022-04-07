@@ -24,7 +24,7 @@ public class IteracaoWhile {
 
         int i = 0;
         while (i < 10) {
-            if ( i == 5) {
+            if (i == 5) {
                 System.out.println("Vai continuar...");
                 i++;
                 continue;
