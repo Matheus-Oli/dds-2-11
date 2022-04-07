@@ -6,4 +6,5 @@ Se o número 1 for informado, então deverá ser impresso "domingo", se 2, entã
  */
 
 public class Exercicio03 {
+
 }
