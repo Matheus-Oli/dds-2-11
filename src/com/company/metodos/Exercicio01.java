@@ -21,8 +21,7 @@ public class Exercicio01 {
         Integer posicaoCursoEscolhido = scanner.nextInt();
         Boolean posicaoValida = posicaoCursoEscolhido >= 0 && posicaoCursoEscolhido < cursos.length;
         if (!posicaoValida) {
-            System.err.println("Posição inválida!");
-            System.exit(1);
+            encerrarProgramaPorCausaDePosicaoInvalida();
         }
         imprimirTraco();
         String[] formasPagamento = new String[] {"Cartão", "Boleto"};
@@ -35,8 +34,7 @@ public class Exercicio01 {
         posicaoValida = posicaoFormaPagamentoEscolhida >= 0
                 && posicaoFormaPagamentoEscolhida < formasPagamento.length;
         if (!posicaoValida) {
-            System.err.println("Posição inválida!");
-            System.exit(1);
+            encerrarProgramaPorCausaDePosicaoInvalida();
         }
         String cursoEscolhido = cursos[posicaoCursoEscolhido];
         String formaPagamentoEscolhida = formasPagamento[posicaoFormaPagamentoEscolhida];
@@ -46,6 +44,11 @@ public class Exercicio01 {
     }
 
     static void imprimirTraco() {
-        System.out.println("----------------------------------------------");
+        System.out.println("------------------------------------------------");
+    }
+
+    static void encerrarProgramaPorCausaDePosicaoInvalida() {
+        System.err.println("Posição inválida!");
+        System.exit(1);
     }
 }
