@@ -22,8 +22,7 @@ public class RecebendoParametros {
         iterarEExibirPosicoesDoVetorString(formasPagamento);
         System.out.print("Sua forma de pagamento escolhida é: ");
         Integer posicaoFormaPagamentoEscolhida = scanner.nextInt();
-        posicaoValida = posicaoFormaPagamentoEscolhida >= 0
-                && posicaoFormaPagamentoEscolhida < formasPagamento.length;
+        posicaoValida = posicaoFormaPagamentoEscolhida >= 0 && posicaoFormaPagamentoEscolhida < formasPagamento.length;
         if (!posicaoValida) {
             encerrarProgramaPorCausaDaPosicaoInvalida();
         }

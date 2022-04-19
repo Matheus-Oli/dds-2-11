@@ -1,11 +1,5 @@
 package com.company.metodos;
 
-/*
-
-Crie um segundo método no algoritmo da aula passada
-
- */
-
 import java.util.Scanner;
 
 public class Exercicio01 {
