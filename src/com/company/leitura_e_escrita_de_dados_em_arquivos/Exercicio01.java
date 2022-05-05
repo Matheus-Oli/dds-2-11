@@ -39,6 +39,7 @@ public class Exercicio01 {
             linhas.add(tarefa);
             i++;
         }
+
         escreverNoArquivo("C:\\Users\\Administrador\\Desktop\\arquivo.txt", linhas);
         scanner.close();
         System.out.println("Fim...");
