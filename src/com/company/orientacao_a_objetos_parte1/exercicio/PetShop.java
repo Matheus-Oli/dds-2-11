@@ -8,7 +8,7 @@ Um pet shop te chamou para ajudar no controle dos animais que eles cuidam. Eles 
 2. Crie uma outra classe chamada "PetShop" para testarmos nossa classe "Cachorro". Adicione o método "main".
 3. Agora vamos instanciar um objeto do tipo "Cachorro". Dentro do método "main" utilize a palavra-chave "new" para criar o objeto.
 4. Agora que temos um objeto do tipo "Cachorro", vamos definir os atributos dele.
-5. Para mostrar na saída os valores deste objeto, vamos utilizar o código abaixo.
+5. Depois, mostrar na saída os valores deste objeto.
 6. Execute o programa e veja o resultado na saída do console. Arrisque um pouco, crie outro objeto do tipo "Cachorro" e tente perceber que são objetos diferentes criados a partir de uma única classe.
  */
 
