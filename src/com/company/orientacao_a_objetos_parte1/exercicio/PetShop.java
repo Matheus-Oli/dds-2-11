@@ -10,7 +10,5 @@ Um pet shop te chamou para ajudar no controle dos animais que eles cuidam. Eles 
 5. Depois, mostrar na saída os valores deste objeto.
 6. Execute o programa e veja o resultado na saída do console. Arrisque um pouco, crie outro objeto do tipo "Cachorro" e tente perceber que são objetos diferentes criados a partir de uma única classe.
  */
-
 public class PetShop {
-
 }
