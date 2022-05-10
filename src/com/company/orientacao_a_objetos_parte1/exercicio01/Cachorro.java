@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos_parte1.exercicio;
+package com.company.orientacao_a_objetos_parte1.exercicio01;
 public class Cachorro {
     String nome;
     String raca;

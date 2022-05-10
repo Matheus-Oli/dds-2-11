@@ -8,27 +8,16 @@ Imagine agora que você precise criar um programa para fazer uma pessoa caminhar
 3. Agora podemos criar o passeio. Para isso crie uma nova classe chamada "Passeio" e adicione o método "main", agora podemos pensar na lógica de instanciar os objetos e chamar os métodos apropriados.
 4. Compile e execute a classe Passeio, você deverá ver no console o nome da pessoa e do cachorro que estão passeando.
  */
-
 public class Passeio {
-
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa();
         p1.nome = "Jos�";
-
-		/*
-		Cachorro cachorro = new Cachorro()
-		p1.cachorro = cachorro;
-		*/
         p1.cachorro = new Cachorro();
-
         p1.cachorro.nome = "Bidu";
         p1.cachorro.idade = 3;
         p1.cachorro.raca = "Boxer";
         p1.cachorro.sexo = 'M';
-
         Caminhada c = new Caminhada();
         c.andar(p1);
-
     }
-
 }
