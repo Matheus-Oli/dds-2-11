@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos_parte1.exercicio;
+package com.company.orientacao_a_objetos_parte1.exercicio01;
 /*
 instanciando e acessando atributos do objeto
 Utilizando o IntelliJ, vamos fazer este primeiro exercícios sobre Orientação a Objetos. Fique a vontade para criar outro projeto ou utilizar um existente.
