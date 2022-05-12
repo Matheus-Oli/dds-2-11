@@ -1,4 +1,4 @@
-package com.company.Orientacao_a_objetos_parte2.o_objeto_this.construtores;
+package com.company.Orientacao_a_objetos_parte2.construtores;
 public class TesteConstrutores {
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa("João");

@@ -1,4 +1,4 @@
-package com.company.Orientacao_a_objetos_parte2.o_objeto_this.construtores;
+package com.company.Orientacao_a_objetos_parte2.construtores;
 public class Pessoa {
     String nome;
     int idade;
