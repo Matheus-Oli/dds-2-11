@@ -1,4 +1,7 @@
 package com.company.orientacao_a_objetos_parte1.exercicio03;
+
+import java.util.Scanner;
+
 /*
 Exercício: arrays
 Uma pequena empresa atacadista com sede na cidade de Uberlândia precisa conferir seu estoque de produtos, para isso,
@@ -22,7 +25,25 @@ Pronto! Mais um cliente satisfeito. Se quiser melhorar ainda mais o programa e f
 quantidade total de produtos no estoque e mostre no final da execução.
  */
 public class Principal {
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Quantos produtos?");
+        int quantidadeProdutos = scanner.nextInt();
+        scanner.nextLine();
+        Estoque estoque = new Estoque();
+        estoque.produtos = new Produto[quantidadeProdutos];
+        for (int i = 0; i < estoque.produtos.length; i++) {
+            estoque.produtos[i] = new Produto();
+            System.out.println("Produto " + i);
+            System.out.println("---------------------");
+            System.out.println("Informe descrição do produto:");
+            estoque.produtos[i].descricao = scanner.nextLine();
+            System.out.println("Informe Quantidade de itens:");
+            estoque.produtos[i].quantidade = scanner.nextInt();
+            scanner.nextLine();
+        }
+        estoque.listarProdutos();
+    }
 }
 
 
