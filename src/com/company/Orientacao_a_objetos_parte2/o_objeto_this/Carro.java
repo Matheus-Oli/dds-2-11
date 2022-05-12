@@ -12,9 +12,5 @@ public class Carro {
             this.modelo = modelo;
         }
     }
-    void ligar(){
-        if (modelo != null) {
-            System.out.println("Ligando o carro: " + modelo);
-        }
-    }
+
 }
