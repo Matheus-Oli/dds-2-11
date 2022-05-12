@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos_parte1.exercicio03;
+package com.company.arrays.exercicio03;
 
 import java.util.Scanner;
 
