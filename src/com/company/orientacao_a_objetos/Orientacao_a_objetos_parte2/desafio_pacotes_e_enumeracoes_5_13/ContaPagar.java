@@ -30,7 +30,6 @@ public class ContaPagar {
             this.situacaoConta = SituacaoConta.PAGA;
         }
     }
-
     public void cancelar() {
         if (SituacaoConta.PAGA.equals(this.getSituacaoConta())){
             System.out.println("Não pode cancelar uma conta que foi paga: "
@@ -44,7 +43,6 @@ public class ContaPagar {
             this.situacaoConta = SituacaoConta.CANCELADA;
         }
     }
-
     public String getDescricao() {
         return descricao;
     }
