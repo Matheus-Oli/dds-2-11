@@ -16,9 +16,6 @@ No construtor que recebe os parâmetros, lembre de invocar o construtor padrão 
 O método pagar() deve verificar a situação da conta antes de efetivar o pagamento. Se a situação for CANCELADA ou PAGA, uma mensagem de erro deve ser exibida ao usuário. Uma conta só deve ser paga se a situação atual for PENDENTE.
 No caso de uma conta ser paga através do método pagar(), não esquecer de atribuir a constante PAGA à variável "situacaoConta".
 Crie um método cancelar() na classe ContaPagar que muda a situação da conta para CANCELADA e exibe uma mensagem para o usuário. A regra neste caso é a seguinte: não se pode cancelar uma conta que já foi cancelada ou paga.
-As classes ContaPagar e Fornecedor e a enumeração SituacaoConta devem ficar no pacote "com.algaworks.cursojava.financeiro.modelo".
-Se precisar de ajuda, não me ligue.
-Brincadeira... estou à disposição.
 
 Ok, seu analista lhe deu muito trabalho, mas pense como isso será útil para você aprender sobre as enumerações, pacotes e, claro, praticar Java. :)
 
