@@ -72,8 +72,8 @@ public class Principal {
         conta1.setValor(1230d);
         conta1.setDataVencimento("10/05/2012");
         conta1.setFornecedor(imobiliaria);
-        ContaPagar conta2 = new ContaPagar("Compras do mês", 390d, "19/05/2012", mercado);
-        ContaPagar conta3 = new ContaPagar("Aluguel da filial", 700d, "11/05/2012", mercado);
+        ContaPagar conta2 = new ContaPagar(mercado, "Compras do mês", 390d, "19/05/2012");
+        ContaPagar conta3 = new ContaPagar(mercado, "Aluguel da filial", 700d, "11/05/2012");
         // pagamento de conta pendente (ok, deve funcionar)
         conta1.pagar();
         // tentativa de pagar uma conta cancelada (não deve aceitar pagamento)
