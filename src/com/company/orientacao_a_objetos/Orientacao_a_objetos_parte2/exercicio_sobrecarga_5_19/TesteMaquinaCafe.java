@@ -15,7 +15,15 @@ Mesmo com essa nova possibilidade, o usuário não será obrigado a informar qua
 Dica do professor: use o debugger do e execute o exemplo passo a passo. Isso ajuda bastante a entender o funcionamento e fixar os conceitos.
 
  */
-public class TesteMaquinaCafe {
+class TesteMaquinaCafe {
+    public static void main(String[] args) {
+        MaquinaCafe maquina = new MaquinaCafe();
+        maquina.acucarDisponivel = 30;
+        maquina.fazerCafe(10);
+        maquina.fazerCafe(15);
+        maquina.fazerCafe();
+    }
+
     public static void main(String[] args) {
         MaquinaCafe maquina = new MaquinaCafe();
         maquina.acucarDisponivel = 30;

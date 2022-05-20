@@ -1,11 +1,11 @@
 package com.company.orientacao_a_objetos.Orientacao_a_objetos_parte2.exercicio_sobrecarga_5_19;
-public class MaquinaCafe {
-    public int acucarDisponivel;
-    public void fazerCafe() {
+class MaquinaCafe {
+    int acucarDisponivel;
+    void fazerCafe() {
         fazerCafe(10);
     }
-    public void fazerCafe(int quantidadeAcucar) {
-        if (acucarDisponivel < quantidadeAcucar){
+    void fazerCafe(int quantidadeAcucar) {
+        if (acucarDisponivel < quantidadeAcucar) {
             System.out.println("Não há açucar suficiente para fazer seu café.");
         } else {
             acucarDisponivel -= quantidadeAcucar;
