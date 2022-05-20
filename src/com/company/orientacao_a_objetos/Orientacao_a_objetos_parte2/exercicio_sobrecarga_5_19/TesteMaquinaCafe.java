@@ -11,7 +11,7 @@ Mesmo com essa nova possibilidade, o usuário não será obrigado a informar qua
 3. Como o usuário não será obrigado a informar a quantidade de açúcar a ser adicionado no café, crie outro método com o nome "fazerCafe", que não recebe nenhum parâmetro. Isso é uma sobrecarga de métodos!
 4. Você deve ter percebido que os códigos dos dois métodos ficaram bem parecidos, certo? Sem pânico! Vamos melhorar fazendo um método chamar outro, aproveitando toda a lógica.
 5. Crie uma classe agora para testar a máquina de café, afinal de contas, você deve evitar entregar código-fonte com bugs. Crie uma nova classe chamada "TesteMaquinaCafe" que instancia uma "MaquinaCafe" e atribui a quantidade de açúcar disponível.
-6. Chame os métodos "fazerCafe" com diferentes valores para testar o funcionamento da máquina. No exemplo abaixo, o terceiro café não será possível de ser feito, pois não haverá mais açúcar disponível na máquina.
+6. Chame os métodos "fazerCafe" com diferentes valores para testar o funcionamento da máquina.
 Dica do professor: use o debugger do e execute o exemplo passo a passo. Isso ajuda bastante a entender o funcionamento e fixar os conceitos.
 
  */
