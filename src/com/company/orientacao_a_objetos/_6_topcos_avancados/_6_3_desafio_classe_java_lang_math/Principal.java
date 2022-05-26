@@ -1,5 +1,7 @@
 package com.company.orientacao_a_objetos._6_topcos_avancados._6_3_desafio_classe_java_lang_math;
 
+import java.util.Scanner;
+
 /*
 A Mega-Sena é o jogo que paga milhões de reais para o acertador dos números sorteados.
 
@@ -16,4 +18,21 @@ Use a classe Math para gerar números aleatórios e fazer arredondamentos. Lembr
 Se levar esse desafio a sério, jogar na Mega-Sena e ganhar, não esqueça de nós! ;)
  */
 public class Principal {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Quantos jogos?");
+        int quantidadeJogos = entrada.nextInt();
+
+        System.out.println("-------------------------");
+
+        for (int i = 1; i <= quantidadeJogos; i++){
+            MegaSena mega = new MegaSena();
+            mega.sortear();
+            mega.exibirNumeros();
+            System.out.println("------------------------");
+        }
+
+        System.out.println("*** Boa sorte! ***");
+    }
 }
