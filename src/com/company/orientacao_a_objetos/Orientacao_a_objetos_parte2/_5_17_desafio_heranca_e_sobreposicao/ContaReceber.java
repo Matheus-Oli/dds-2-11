@@ -34,8 +34,6 @@ public class ContaReceber extends Conta {
 			System.out.println("Recebendo conta " + this.getDescricao() + " no valor de " 
 				+ this.getValor() + " e vencimento em " + this.getDataVencimento() 
 				+ " do cliente " + this.getCliente().getNome() + ".");
-				
-			// altera situação da conta para PAGA
 			this.situacaoConta = SituacaoConta.PAGA;
 		}
 	}
