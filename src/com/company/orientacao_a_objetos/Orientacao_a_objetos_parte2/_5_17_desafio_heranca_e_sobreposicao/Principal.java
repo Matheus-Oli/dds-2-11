@@ -1,6 +1,6 @@
-package com.company.orientacao_a_objetos.Orientacao_a_objetos_parte2._5_22_desafio_polimorfismo_e_classes_abstratas;
+package com.company.orientacao_a_objetos.Orientacao_a_objetos_parte2._5_17_desafio_heranca_e_sobreposicao;
 
-public class Desafio {
+public class Principal {
     public static void main(String[] args) {
         // instanciando fornecedores
         Fornecedor imobiliaria = new Fornecedor();
@@ -32,10 +32,12 @@ public class Desafio {
 
         ContaReceber contaReceber2 = new ContaReceber(telecom, "Manutenção em sistema de conta online", 53200d, "13/05/2012");
 
-        // exibe listagem de todas as contas com detalhamento
-        RelatorioContas relatorio = new RelatorioContas();
-        Conta[] contas = new Conta[]{contaPagar1, contaPagar2, contaReceber1, contaReceber2};
+        // pagamento e cancelamento de contas a pagar
+        contaPagar1.pagar();
+        contaPagar2.cancelar();
 
-        relatorio.exibirListagem(contas);
+        // recebimento e cancelamento de contas a receber
+        contaReceber1.receber();
+        contaReceber2.cancelar();
     }
 }
