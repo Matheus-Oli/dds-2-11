@@ -32,7 +32,6 @@ public class Desafio {
 
         ContaReceber contaReceber2 = new ContaReceber(telecom, "Manutenção em sistema de conta online", 53200d, "13/05/2012");
 
-        // exibe listagem de todas as contas com detalhamento
         RelatorioContas relatorio = new RelatorioContas();
         Conta[] contas = new Conta[]{contaPagar1, contaPagar2, contaReceber1, contaReceber2};
 
