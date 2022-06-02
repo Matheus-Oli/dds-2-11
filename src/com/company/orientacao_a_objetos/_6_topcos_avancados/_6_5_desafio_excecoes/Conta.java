@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.Orientacao_a_objetos_parte2._5_17_desafio_heranca_e_sobreposicao;
+package com.company.orientacao_a_objetos._6_topcos_avancados._6_5_desafio_excecoes;
 
 public class Conta {
 
@@ -11,11 +11,11 @@ public class Conta {
         this.situacaoConta = SituacaoConta.PENDENTE;
     }
 
-    public void cancelar() {
+    public void cancelar() throws OperacaoContaException {
         if (SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
-            System.out.println("Não pode cancelar uma conta que já foi paga: " + this.getDescricao() + ".");
+            throw new OperacaoContaException("Não pode cancelar uma conta que já foi paga: " + this.getDescricao() + ".");
         } else if (SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
-            System.out.println("Não pode cancelar uma conta que já foi cancelada: " + this.getDescricao() + ".");
+            throw new OperacaoContaException("Não pode cancelar uma conta que já foi cancelada: " + this.getDescricao() + ".");
         } else {
             System.out.println("Cancelando conta " + this.getDescricao() + ".");
             this.situacaoConta = SituacaoConta.CANCELADA;
