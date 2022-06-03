@@ -21,7 +21,7 @@ public class TesteNumeros {
             System.out.println("Entrada inválida");
         }
 
-        BigDecimal bg = new BigDecimal(5131231231000d);
+        BigDecimal bg = new BigDecimal("5131231231000");
         bg = bg.divide(BigDecimal.TEN);
         System.out.println(bg);
     }
