@@ -1,4 +1,4 @@
-package com.company.orientacao_a_objetos.Orientacao_a_objetos_parte2.Introducao_a_generics;
+package com.company.orientacao_a_objetos._7_mais_detalhes_e_frameworks._7_11_introducao_a_generics;
 
 public class Funcionario {
 
