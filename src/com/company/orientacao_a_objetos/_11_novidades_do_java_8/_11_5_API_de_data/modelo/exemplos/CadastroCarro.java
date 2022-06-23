@@ -15,7 +15,7 @@ public class CadastroCarro {
 
         List<Carro> carros = Arrays.asList(gol, cruze, celta);
         carros.stream()
-                .filter(c -> getAnoFabricacao().isAfter(Year.of(2012)))
+                .filter(c -> c.getAnoFabricacao().isAfter(Year.of(2012)))
                 .forEach(c -> System.out.println(c.getModelo()));
     }
 }
